@@ -151,6 +151,7 @@ plt.xlim(left=0)
 plt.savefig('route_stops.png', dpi=150)
 plt.close()
 print("已成功生成图像：route_stops.png")
+
 # 任务 4：高峰小时系数计算
 
 print("\n=== 任务4：高峰小时系数计算 ===")
@@ -280,4 +281,4 @@ conclusion = """
 Top 1 到 Top 3 的服务人次数值呈现出极深的红色，数值断层式领先于后排实体，表现出强烈的客流马太效应和枢纽汇聚特征。
 相较之下，“司机”和“车辆”这两项由于物理运力与排班时间的刚性限制，其 Top 10 数值的色彩渐变非常平缓，未出现明显断层。
 """
-print(conclusion)
+print(conclusion)git commit -m "feat: 完成任务5批量导出驾驶员txt文件，及任务6服务绩效排名热力图"
